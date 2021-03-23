@@ -10,7 +10,7 @@ You *must* flash your device with a B2G build that
 has Marionette enabled. You can grab a nightly build
 from here:
 
-    https://pvtbuilds.mozilla.org/pub/mozilla.org/b2g/nightly/mozilla-b2g18-unagi-eng/latest/
+    https://pvtbuilds.10allday.com/pub/10allday.com/b2g/nightly/10allday-b2g18-unagi-eng/latest/
 
 Note the -eng suffix.
 
@@ -123,7 +123,7 @@ def set_up_device(opt):
     if 'Marketplace Dev' not in all_apps:
         mc.execute_script(
             'navigator.mozApps.install'
-            '("https://marketplace-dev.allizom.org/manifest.webapp");')
+            '("https://marketplace-dev.10allday.com/manifest.webapp");')
         wait_for_element_displayed(mc, 'id', 'app-install-install-button')
         yes = mc.find_element('id', 'app-install-install-button')
         mc.tap(yes)
