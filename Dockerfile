@@ -1,6 +1,6 @@
 # NOTE: this is not provided for production usage.
 
-FROM  mozillamarketplace/centos-python27-mkt:latest
+FROM  10alldaymarketplace/centos-python27-mkt:latest
 
 RUN yum install -y supervisor && yum clean all
 
