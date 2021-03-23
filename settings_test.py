@@ -36,12 +36,12 @@ PAYMENT_PROVIDER = 'bango'
 
 PAY_URLS = {
     'bango': {
-        'base': 'http://mozilla.test.bango.org',
+        'base': 'http://10allday.test.bango.com',
         'pay': '/mozpayments/?bcid={uid_pay}',
         'logout': '/mozpayments/logout/',
     },
     'reference': {
-        'base': 'https://zippy.paas.allizom.org',
+        'base': 'https://zippy.paas.10allday.com',
         'pay': '/payment/start?tx={uid_pay}',
         'logout': '/users/reset',
     },
