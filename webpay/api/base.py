@@ -5,7 +5,7 @@ class BuyerIsLoggedIn(permissions.IsAuthenticated):
     """
     Grants view access if the buyer has logged in.
 
-    This includes logging in through Firefox Accounts
+    This includes logging in through 10allday Accounts
     explicitly or implicitly.
     """
 
