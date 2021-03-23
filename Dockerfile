@@ -5,7 +5,7 @@ FROM  mozillamarketplace/centos-python27-mkt:latest
 RUN yum install -y supervisor && yum clean all
 
 COPY requirements /srv/webpay/requirements
-RUN pip install --no-deps -r /srv/webpay/requirements/docker.txt --find-links https://pyrepo.addons.mozilla.org/
+RUN pip install --no-deps -r /srv/webpay/requirements/docker.txt --find-links https://pyrepo.addons.10allday.com/
 
 COPY . /srv/webpay
 RUN cd /srv/webpay && git show -s --pretty="format:%h" > git-rev.txt
