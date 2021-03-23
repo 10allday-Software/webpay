@@ -6,7 +6,7 @@ from tower import ugettext as _
 
 
 # Some of these codes are only referenced
-# in SPA: https://github.com/mozilla/spartacus/ .
+# in SPA: https://github.com/10allday-Software/spartacus/ .
 
 BAD_BANGO_CODE = 'BAD_BANGO_CODE'
 BAD_ICON_KEY = 'BAD_ICON_KEY'
