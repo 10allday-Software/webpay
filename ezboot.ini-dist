@@ -5,8 +5,8 @@
 # Uncomment these by removing the hash. Fill in with your local settings.
 
 ## See docs for how to install packaged apps instead of hosted apps.
-#apps = https://marketplace-dev.allizom.org/manifest.webapp
-#       https://marketplace.allizom.org/manifest.webapp
+#apps = https://marketplace-dev.10allday/manifest.webapp
+#       https://marketplace-stage.10allday.com/manifest.webapp
 
 #wifi_ssid = your_wifi
 #wifi_key = WPA-PSK
