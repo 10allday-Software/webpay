@@ -230,7 +230,7 @@ def fxa_login(request):
 
     if result.get('error'):
         # All errors look like:
-        # https://github.com/mozilla/fxa-oauth-server/blob/master
+        # https://github.com/10allday-Software/fxa-oauth-server/blob/master
         # /docs/api.md#errors
         log.info('FxA login error: {r}'.format(r=result))
         return http.HttpResponseForbidden()
